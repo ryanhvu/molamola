@@ -1,0 +1,638 @@
+/*
+font-family: 'Chela One', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+body, html {
+    height: 10000px;
+    overflow-x: hidden !important; }
+}
+
+#canvas{
+  width:1920px;
+  height:1000px;
+  margin:0 auto;
+  position:relative;
+   cursor:url(https://img.pokemondb.net/sprites/black-white/anim/normal/alomomola.gif), auto;
+}
+
+#counter{
+  border:2px solid blue;
+  background-color:blue;
+  color:white;
+  width:200px;
+  height:30px;
+  top:0px;
+  left:90px;
+  position:absolute;
+  z-index:2;
+  opacity:0.9;
+}
+
+#popup {
+  width:300px;
+  height: 150px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup1 10s infinite;
+}
+
+@keyframes popup1
+{     0%   {left:50px; top:200px;}
+      25%   {left:50px; top:150px;}
+      50%  {left: 50px; top: 200px;}
+      75% {left:50px; top: 150px;}
+  100% {left:50px; top:200px;}
+                }
+
+.intro{
+  top: 800px;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  height:200px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molaintro{
+  font-size: 120px;
+  font-family: 'Chela One', cursive;
+  margin-left: 190px;
+}
+
+p.molasubintro{
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('../img/start.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../img/mola sun bathing.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax2{
+  animation: wavey 15s infinite;
+}
+  @keyframes wavey
+  {     0% {background-position: 20% 20%;}
+        25% {background-position: 80% 80%;}
+        50% {background-position: 20% 20%;}
+        75% {background-position: 80% 80%;}
+        100% { background-position: 20% 20%;}
+                  }
+
+
+.panel1{
+  top: 1900px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle1{
+  font-size: 120px;
+  margin-left: 275px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext1{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup2 {
+  width:300px;
+  height: 150px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup2 10s infinite;
+}
+
+@keyframes popup2
+{     0%   {left:1510px; top:1200px;}
+      25%   {left:1510px; top:1150px;}
+      50%  {left: 1510px; top: 1200px;}
+      75% {left:1510px; top: 1150px;}
+  100% {left:1510px; top:1200px;}
+                }
+
+.parallax3 {
+    /* The image used */
+    background-image: url('../img/baby mola.jpeg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel2{
+  top: 3000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle2{
+  font-size: 120px;
+  margin-left: 500px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext2{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup3 {
+  width:300px;
+  height: 150px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup3 10s infinite;
+}
+
+@keyframes popup3
+{     0%   {left:50px; top:2200px;}
+      25%   {left:50px; top:2150px;}
+      50%  {left: 50px; top: 2200px;}
+      75% {left:50px; top: 2150px;}
+  100% {left:50px; top:2200px;}
+                }
+
+.parallax4 {
+    /* The image used */
+    background-image: url('../img/sea lion eating mola.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel3{
+  top: 4000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle3{
+  font-size: 120px;
+  margin-left: 400px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext3{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup4 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup4 10s infinite;
+}
+
+@keyframes popup4
+{     0%   {left:1510px; top:3700px;}
+      25%   {left:1510px; top:3750px;}
+      50%  {left: 1510px; top: 3700px;}
+      75% {left:1510px; top: 3750px;}
+  100% {left:1510px; top:3700px;}
+                }
+
+.parallax5 {
+    /* The image used */
+    background-image: url('../img/closeup mola.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5{
+  animation: side 15s infinite;
+}
+  @keyframes side
+  {     0% {background-position: 80% 20%;}
+        25% {background-position: 20% 80%;}
+        50% {background-position: 80% 20%;}
+        75% {background-position: 20% 80%;}
+        100% { background-position: 80% 20%;}
+                  }
+
+.panel4{
+  top: 5000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle4{
+  font-size: 120px;
+  margin-left: 400px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext4{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup5 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup5 10s infinite;
+}
+
+@keyframes popup5
+{     0%   {left:50px; top:4500px;}
+      25%   {left:50px; top:4550px;}
+      50%  {left: 50px; top: 4500px;}
+      75% {left:50px; top: 4550px;}
+  100% {left:50px; top:4500px;}
+                }
+
+.parallax6 {
+    /* The image used */
+    background-image: url('../img/manridingmola.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel5{
+  top: 6000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle5{
+  font-size: 120px;
+  margin-left: 400px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext5{
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup6 {
+  width:300px;
+  height: 100px;
+  background-color: red;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup6 2s infinite;
+}
+
+@keyframes popup6
+{     0%   {left:1510px; top:5700px;}
+      25%   {left:1510px; top:5750px;}
+      50%  {left: 1510px; top: 5700px;}
+      75% {left:1510px; top: 5750px;}
+  100% {left:1510px; top:5700px;}
+                }
+
+
+.parallax7 {
+    /* The image used */
+    background-image: url('../img/historicalmola.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel6{
+  top: 7000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle6{
+  font-size: 120px;
+  margin-left: 450px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext6{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup7 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup7 10s infinite;
+}
+
+@keyframes popup7
+{     0%   {left:50px; top:6500px;}
+      25%   {left:50px; top:6550px;}
+      50%  {left: 50px; top: 6500px;}
+      75% {left:50px; top: 6550px;}
+  100% {left:50px; top:6500px;}
+                }
+.parallax8 {
+    /* The image used */
+    background-image: url('../img/parasiteonmola.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel7{
+  top: 8000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle7{
+  font-size: 120px;
+  margin-left: 500px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext7{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup8 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup8 4s infinite;
+}
+
+@keyframes popup8
+{     0%   {left:1510px; top:7700px;}
+      25%   {left:1510px; top:7750px;}
+      50%  {left: 1510px; top: 7700px;}
+      75% {left:1510px; top: 7750px;}
+  100% {left:1510px; top:7700px;}
+                }
+
+.parallax9 {
+    /* The image used */
+    background-image: url('../img/molaparasites.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel8{
+  top: 9000px;
+  left: 0px;
+  position: absolute;
+  height:150px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle8{
+  font-size: 100px;
+  margin-left: 550px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext8{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup9 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup9 10s infinite;
+}
+
+@keyframes popup9
+{     0%   {left:50px; top:8500px;}
+      25%   {left:50px; top:8550px;}
+      50%  {left: 50px; top: 8500px;}
+      75% {left:50px; top: 8550px;}
+  100% {left:50px; top:8500px;}
+                }
+
+.parallax10 {
+    /* The image used */
+    background-image: url('../img/molagame.jpg');
+    /* Full height */
+    height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel9{
+  top: 10000px;
+  left: 0px;
+  position: absolute;
+  height:100px;
+  width: 1920px;
+  background-color:white;
+  display: flex;
+}
+
+p.molatitle9{
+  font-size: 80px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  line-height: 150px;
+  font-family: 'Chela One', cursive;
+}
+
+p.molatext9{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#popup10 {
+  width:300px;
+  height: 100px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 15px;
+  position:absolute;
+  top:200px;
+  left:50px;
+  display:block;
+  transition: .2s ease-in-out;
+  animation: popup10 10s infinite;
+}
+
+@keyframes popup10
+{     0%   {left:1575px; top:9700px;}
+      25%   {left:1575px; top:9750px;}
+      50%  {left: 1575px; top: 9700px;}
+      75% {left:1575px; top: 9750px;}
+  100% {left:1575px; top:9700px;}
+                }
+/* relative, absolute, fixed, static
+http://www.barelyfitz.com/screencast/html-training/css/positioning/
+http://jsbin.com/yicata/2/
+*/
